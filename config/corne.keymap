@@ -147,9 +147,9 @@
         symbols-navigation {
             label = "Code";
             bindings = <
-&none  &kp ESC                 &kp GRAVE  &kp LBKT   &kp LBRC  &kp LPAR         &kp RPAR  &kp RBRC  &kp RBKT    &kp C_NEXT    &kp DEL         &none
-&none  &bm LEFT_SHIFT TAB      &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK        &kp LEFT  &kp DOWN  &kp UP      &kp RIGHT     &kp SEMI        &none
-&none  &kp LA(LC(LEFT_SHIFT))  &kp EXCL   &kp AT     &kp HASH  &bm HOME DLLR    &kp END   &kp RWIN  &kp C_MUTE  &kp C_VOL_UP  &cm RCTRL BSLH  &none
+&none  &kp ESC                 &kp GRAVE  &kp LBKT   &kp LBRC  &kp LPAR         &kp RPAR  &kp RBRC  &kp RBKT  &none      &kp DEL         &none
+&none  &bm LEFT_SHIFT TAB      &kp PRCNT  &kp CARET  &kp AMPS  &kp ASTRK        &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &kp SEMI        &none
+&none  &kp LA(LC(LEFT_SHIFT))  &kp EXCL   &kp AT     &kp HASH  &bm HOME DLLR    &kp END   &kp RWIN  &none     &kp EQUAL  &cm RCTRL BSLH  &none
                                           &trans     &trans    &trans           &trans    &trans    &trans
             >;
         };
