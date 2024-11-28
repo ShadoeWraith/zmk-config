@@ -9,12 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-        chosen {
-                zmk,physical-layout = &foostan_corne_5col_layout;
-        };
-        
         keymap {
                 compatible = "zmk,keymap";
+                chosen {
+                        zmk,physical-layout = &foostan_corne_5col_layout;
+                };
 
                 
 
