@@ -148,7 +148,7 @@
             label = "Main";
             bindings = <
 &none  &kp Q           &kp W           &kp E             &kp R        &kp T        &kp Y      &kp U          &kp I              &kp O            &kp P               &none
-&none  &mt LEFT_WIN A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LCTRL F  &kp G        &kp H      &mt RCTRL J    &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_WIN APOS  &none
+&none  &cm LEFT_WIN A  &cm LEFT_ALT S  &cm LEFT_SHIFT D  &cm LCTRL F  &kp G        &kp H      &cm RCTRL J    &cm RIGHT_SHIFT K  &cm RIGHT_ALT L  &cm RIGHT_WIN APOS  &none
 &none  &kp Z           &kp X           &kp C             &kp V        &kp B        &kp N      &kp M          &kp COMMA          &kp DOT          &kp FSLH            &none
                                        &mo 1             &kp TAB      &kp SPACE    &kp ENTER  &kp BACKSPACE  &mo 2
             >;
@@ -158,8 +158,8 @@
             label = "Code";
             bindings = <
 &none  &kp ESC                 &kp GRAVE           &kp LBKT              &kp LBRC        &kp LPAR         &kp RPAR  &kp RBRC  &kp RBKT       &tog 3     &kp DEL               &none
-&none  &mt LEFT_WIN ASTERISK   &mt LEFT_ALT PRCNT  &mt LEFT_SHIFT CARET  &mt LCTRL AMPS  &kp TAB          &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT  &mt RIGHT_SHIFT SEMI  &none
-&none  &kp LA(LC(LEFT_SHIFT))  &kp EXCL            &kp AT                &kp HASH        &bm HOME DLLR    &kp END   &kp RWIN  &kp LS(LG(S))  &kp EQUAL  &mt RCTRL BSLH        &none
+&none  &cm LEFT_WIN ASTERISK   &cm LEFT_ALT PRCNT  &cm LEFT_SHIFT CARET  &cm LCTRL AMPS  &kp TAB          &kp LEFT  &kp DOWN  &kp UP         &kp RIGHT  &cm RIGHT_SHIFT SEMI  &none
+&none  &kp LA(LC(LEFT_SHIFT))  &kp EXCL            &kp AT                &kp HASH        &bm HOME DLLR    &kp END   &kp RWIN  &kp LS(LG(S))  &kp EQUAL  &cm RCTRL BSLH        &none
                                                    &trans                &trans          &trans           &trans    &trans    &trans
             >;
         };
@@ -168,8 +168,8 @@
             label = "Number";
             bindings = <
 &none  &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4    &bm F12 FSLH      &bm F7 NUMBER_7  &bm F8 NUMBER_8  &bm F9 NUMBER_9  &kp MINUS             &none
-&none  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP  &bootloader     &bm F11 ASTRK     &bm F4 NUMBER_4  &bm F5 NUMBER_5  &bm F6 NUMBER_6  &mt RIGHT_SHIFT PLUS  &none
-&none  &kp LCTRL       &kp C_PAUSE        &kp C_STOP    &kp C_PLAY       &bt BT_CLR      &bm F10 NUMBER_0  &bm F1 NUMBER_1  &bm F2 NUMBER_2  &bm F3 NUMBER_3  &mt RCTRL EQUAL       &none
+&none  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP  &bootloader     &bm F11 ASTRK     &bm F4 NUMBER_4  &bm F5 NUMBER_5  &bm F6 NUMBER_6  &cm RIGHT_SHIFT PLUS  &none
+&none  &kp LCTRL       &kp C_PAUSE        &kp C_STOP    &kp C_PLAY       &bt BT_CLR      &bm F10 NUMBER_0  &bm F1 NUMBER_1  &bm F2 NUMBER_2  &bm F3 NUMBER_3  &cm RCTRL EQUAL       &none
                                           &trans        &trans           &trans          &trans            &trans           &trans
             >;
         };
@@ -178,8 +178,8 @@
             label = "Game";
             bindings = <
 &none  &kp Q             &kp W  &kp E   &kp R         &kp T     &kp Y   &kp U   &kp I      &kp O    &kp P                 &none
-&none  &mt LEFT_SHIFT A  &kp S  &kp D   &kp F         &kp G     &kp H   &kp J   &kp K      &kp L    &mt RIGHT_SHIFT APOS  &none
-&none  &mt LCTRL Z       &kp X  &kp C   &kp V         &kp B     &kp N   &kp M   &kp COMMA  &kp DOT  &mt RCTRL FSLH        &none
+&none  &cm LEFT_SHIFT A  &kp S  &kp D   &kp F         &kp G     &kp H   &kp J   &kp K      &kp L    &cm RIGHT_SHIFT APOS  &none
+&none  &cm LCTRL Z       &kp X  &kp C   &kp V         &kp B     &kp N   &kp M   &kp COMMA  &kp DOT  &cm RCTRL FSLH        &none
                                 &trans  &kp LEFT_ALT  &trans    &trans  &trans  &trans
             >;
         };
