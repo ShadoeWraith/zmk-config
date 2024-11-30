@@ -135,9 +135,10 @@
     combos {
         compatible = "zmk,combos";
 
-        alt-tab {
-            bindings = <&kp LA(TAB)>;
-            key-positions = <37 0>;
+        main {
+            bindings = <&to 0>;
+            key-positions = <36 9>;
+            layers = <3>;
         };
     };
 
