@@ -152,7 +152,7 @@
         };
 
         symbols-navigation {
-            label = "Code";
+            label = "Sym-Nav";
             bindings = <
 &none  &kp ESC                 &kp LG(LS(S))         &kp LBKT         &kp LBRC                 &kp LPAR              &kp RPAR  &kp RBRC  &kp RBKT  &kp DEL    &kp GRAVE             &none
 &none  &kp TAB                 &cm LEFT_SHIFT PRCNT  &cm LCTRL CARET  &cm LC(LEFT_SHIFT) AMPS  &cm LEFT_ALT ASTRK    &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT  &cm RIGHT_SHIFT SEMI  &none
@@ -162,7 +162,7 @@
         };
 
         numpad-systems {
-            label = "Number";
+            label = "Num-Sys";
             bindings = <
 &none  &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4    &bm F12 FSLH      &bm F7 NUMBER_7  &bm F8 NUMBER_8  &bm F9 NUMBER_9  &kp MINUS             &none
 &none  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP  &bootloader     &bm F11 ASTRK     &bm F4 NUMBER_4  &bm F5 NUMBER_5  &bm F6 NUMBER_6  &cm RIGHT_SHIFT PLUS  &none
