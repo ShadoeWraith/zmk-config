@@ -132,9 +132,9 @@
     combos {
         compatible = "zmk,combos";
 
-        main {
-            bindings = <&to 0>;
-            key-positions = <36 9>;
+        semicolon {
+            bindings = <&kp SEMI>;
+            key-positions = <33 32>;
         };
     };
 
