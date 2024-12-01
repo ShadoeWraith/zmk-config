@@ -164,10 +164,10 @@
         numpad-systems {
             label = "Num-Sys";
             bindings = <
-&none  &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4    &bm F12 FSLH      &bm F7 NUMBER_7  &bm F8 NUMBER_8  &bm F9 NUMBER_9  &kp MINUS             &none
-&none  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP  &bootloader     &bm F11 ASTRK     &bm F4 NUMBER_4  &bm F5 NUMBER_5  &bm F6 NUMBER_6  &cm RIGHT_SHIFT PLUS  &none
-&none  &kp LCTRL       &kp C_PAUSE        &kp C_STOP    &kp C_PLAY       &bt BT_CLR      &bm F10 NUMBER_0  &bm F1 NUMBER_1  &bm F2 NUMBER_2  &bm F3 NUMBER_3  &cm RCTRL EQUAL       &none
-                                          &trans        &kp BACKSPACE    &trans          &trans            &trans           &trans
+&none  &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4     &bm F12 FSLH      &bm F7 NUMBER_7  &bm F8 NUMBER_8  &bm F9 NUMBER_9  &kp MINUS             &none
+&none  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP  &kp BACKSPACE    &bm F11 ASTRK     &bm F4 NUMBER_4  &bm F5 NUMBER_5  &bm F6 NUMBER_6  &cm RIGHT_SHIFT PLUS  &none
+&none  &kp LCTRL       &kp C_PAUSE        &kp C_STOP    &kp C_PLAY       &bt BT_CLR       &bm F10 NUMBER_0  &bm F1 NUMBER_1  &bm F2 NUMBER_2  &bm F3 NUMBER_3  &cm RCTRL EQUAL       &none
+                                          &bootloader   &trans           &trans           &trans            &trans           &trans
             >;
         };
     };
