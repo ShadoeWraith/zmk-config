@@ -155,10 +155,10 @@
         symbols-navigation {
             label = "Sym-Nav";
             bindings = <
-&none  &kp ESC                 &kp LG(LS(S))         &kp LBKT         &kp LBRC                 &kp LPAR              &kp RPAR   &kp RBRC  &kp RBKT   &kp DEL    &kp PIPE       &none
-&none  &kp TAB                 &cm LEFT_SHIFT PRCNT  &cm LCTRL CARET  &cm LC(LEFT_SHIFT) AMPS  &cm LEFT_ALT ASTRK    &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp GRAVE      &none
-&none  &kp LA(LC(LEFT_SHIFT))  &kp EXCL              &kp AT           &kp HASH                 &kp DLLR              &kp HOME   &kp END   &kp EQUAL  &kp GT     &kp BACKSLASH  &none
-                                                     &trans           &trans                   &trans                &kp SPACE  &trans    &trans
+&none  &kp ESC                       &kp LG(LS(S))         &kp LBKT         &kp LBRC                 &kp LPAR              &kp RPAR   &kp RBRC  &kp RBKT   &kp DEL    &kp PIPE       &none
+&none  &cm LEFT_SHIFT TAB            &cm LEFT_SHIFT PRCNT  &cm LCTRL CARET  &cm LC(LEFT_SHIFT) AMPS  &cm LEFT_ALT ASTRK    &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp GRAVE      &none
+&none  &cm LCTRL LC(LA(LEFT_SHIFT))  &kp EXCL              &kp AT           &kp HASH                 &kp DLLR              &kp HOME   &kp END   &kp EQUAL  &kp GT     &kp BACKSLASH  &none
+                                                           &trans           &trans                   &trans                &kp SPACE  &trans    &trans
             >;
         };
 
