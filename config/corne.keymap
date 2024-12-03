@@ -102,7 +102,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
-            flavor = "hold-preferred";
+            flavor = "tap-unless-interrupted";
             bindings = <&kp>, <&kp>;
         };
 
@@ -142,7 +142,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default {
+        Default {
             label = "Main";
             bindings = <
 &none  &kp Q             &kp W  &kp E         &kp R         &kp T          &kp Y        &kp U          &kp I          &kp O    &kp P                 &none
@@ -152,23 +152,23 @@
             >;
         };
 
-        symbols-navigation {
-            label = "Sym-Nav";
+        Symbols-Numbers {
+            label = "Sym-Num";
             bindings = <
-&none  &kp ESC            &kp LG(LS(S))         &kp LBKT         &kp LBRC                 &kp LPAR              &kp RPAR   &kp RBRC  &kp RBKT   &kp DEL    &kp PIPE       &none
-&none  &kp TAB            &cm LEFT_SHIFT PRCNT  &cm LCTRL CARET  &cm LC(LEFT_SHIFT) AMPS  &cm LEFT_ALT ASTRK    &kp LEFT   &kp DOWN  &kp UP     &kp RIGHT  &kp GRAVE      &none
-&none  &kp LS(LA(LCTRL))  &kp EXCL              &kp AT           &kp HASH                 &kp DLLR              &kp HOME   &kp END   &kp EQUAL  &kp GT     &kp BACKSLASH  &none
-                                                &trans           &trans                   &trans                &kp SPACE  &trans    &trans
+&none  &kp ESC                       &kp BACKSLASH  &kp AMPS             &kp ASTRK  &kp LBRC             &kp RBRC   &cm F7 NUMBER_7   &cm F8 NUMBER_8  &cm F9 NUMBER_9  &cm F11 MINUS  &none
+&none  &bm LEFT_SHIFT TAB            &kp DLLR       &cm LS(LCTRL) PRCNT  &kp CARET  &cm LEFT_ALT LPAR    &kp RPAR   &cm F4 NUMBER_4   &cm F5 NUMBER_5  &cm F6 NUMBER_6  &cm F12 GRAVE  &none
+&none  &cm LCTRL LA(LC(LEFT_SHIFT))  &kp EXCL       &kp AT               &kp HASH   &kp LBKT             &kp RBKT   &cm F1 NUMBER_1   &cm F2 NUMBER_2  &cm F3 NUMBER_3  &kp EQUAL      &none
+                                                    &trans               &trans     &trans               &kp SPACE  &cm F10 NUMBER_0  &trans
             >;
         };
 
-        numpad-systems {
-            label = "Num-Sys";
+        Systems-Navigation {
+            label = "Sys-Nav";
             bindings = <
-&none  &bt BT_SEL 0    &bt BT_SEL 1       &bt BT_SEL 2  &bt BT_SEL 3     &bt BT_SEL 4     &bm F12 FSLH      &bm F7 NUMBER_7  &bm F8 NUMBER_8  &bm F9 NUMBER_9  &kp MINUS             &none
-&none  &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &kp K_MUTE    &kp C_VOLUME_UP  &kp BACKSPACE    &bm F11 ASTRK     &bm F4 NUMBER_4  &bm F5 NUMBER_5  &bm F6 NUMBER_6  &cm RIGHT_SHIFT PLUS  &none
-&none  &kp LCTRL       &kp C_PAUSE        &kp C_STOP    &kp C_PLAY       &bt BT_CLR       &bm F10 NUMBER_0  &bm F1 NUMBER_1  &bm F2 NUMBER_2  &bm F3 NUMBER_3  &cm RCTRL EQUAL       &none
-                                          &bootloader   &trans           &trans           &trans            &trans           &trans
+&none  &bt BT_SEL 0            &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp LC(PAGE_UP)       &kp LC(PAGE_DOWN)  &kp C_VOL_DN  &kp K_MUTE  &kp C_VOL_UP  &bootloader                &none
+&none  &cm LEFT_SHIFT PAGE_UP  &kp K_CUT     &kp K_COPY    &kp K_PASTE   &kp LC(LEFT_SHIFT)    &kp LEFT           &kp DOWN      &kp UP      &kp RIGHT     &cm RIGHT_SHIFT PAGE_DOWN  &none
+&none  &kp LCTRL               &bt BT_CLR    &bt BT_SEL 4  &bt BT_NXT    &kp HOME              &kp END            &kp C_PAUSE   &kp C_STOP  &kp C_PLAY    &kp RCTRL                  &none
+                                             &bootloader   &trans        &trans                &trans             &trans        &trans
             >;
         };
     };
