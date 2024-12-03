@@ -101,8 +101,7 @@
             label = "BOTTOM_ROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "tap-unless-interrupted";
+            flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
 
