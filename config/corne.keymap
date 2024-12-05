@@ -166,7 +166,7 @@
         Systems-Navigation {
             label = "Sys-Nav";
             bindings = <
-&none  &bt BT_SEL 0            &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp LC(PAGE_UP)       &kp LC(PAGE_DOWN)  &kp C_VOL_DN  &kp K_MUTE  &kp C_VOL_UP  &bootloader                &none
+&none  &bt BT_SEL 0            &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp LC(PAGE_UP)       &kp LC(PAGE_DOWN)  &kp C_VOL_DN  &kp K_MUTE  &kp C_VOL_UP  &kp DEL                    &none
 &none  &cm LEFT_SHIFT PAGE_UP  &kp K_CUT     &kp K_COPY    &kp K_PASTE   &kp LC(LEFT_SHIFT)    &kp LEFT           &kp DOWN      &kp UP      &kp RIGHT     &cm RIGHT_SHIFT PAGE_DOWN  &none
 &none  &kp LCTRL               &bt BT_CLR    &bt BT_SEL 4  &bt BT_NXT    &kp HOME              &kp END            &kp C_PAUSE   &kp C_STOP  &kp C_PLAY    &kp RCTRL                  &none
                                              &bootloader   &trans        &trans                &trans             &trans        &trans
