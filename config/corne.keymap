@@ -154,7 +154,7 @@
         };
 
         Symbols-Numbers {
-            label = "Sym-Num";
+            label = "SymNum";
             bindings = <
 &none  &kp ESC                       &kp BACKSLASH  &kp AMPS             &kp ASTRK  &kp LBRC             &kp RBRC   &cm F7 NUMBER_7  &cm F8 NUMBER_8   &cm F9 NUMBER_9  &cm F11 MINUS  &none
 &none  &cm LEFT_SHIFT TAB            &kp DLLR       &cm LS(LCTRL) PRCNT  &kp CARET  &cm LEFT_ALT LPAR    &kp RPAR   &cm F4 NUMBER_4  &cm F5 NUMBER_5   &cm F6 NUMBER_6  &cm F12 GRAVE  &none
@@ -164,7 +164,7 @@
         };
 
         Systems-Navigation {
-            label = "Sys-Nav";
+            label = "SysNav";
             bindings = <
 &none  &bt BT_SEL 0            &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &kp LC(PAGE_UP)       &kp LC(PAGE_DOWN)  &kp C_VOL_DN  &kp K_MUTE  &kp C_VOL_UP  &kp DEL                    &none
 &none  &cm LEFT_SHIFT PAGE_UP  &kp K_CUT     &kp K_COPY    &kp K_PASTE   &kp LC(LEFT_SHIFT)    &kp LEFT           &kp DOWN      &kp UP      &kp RIGHT     &cm RIGHT_SHIFT PAGE_DOWN  &none
