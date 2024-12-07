@@ -111,11 +111,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "CODE_ROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
-            flavor = "tap-preferred";
+            tapping-term-ms = <150>;
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
-
-            hold-while-undecided;
         };
 
         sm: space_mod {
