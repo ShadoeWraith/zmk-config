@@ -112,11 +112,8 @@
             label = "CODE_ROW_MODS";
             #binding-cells = <2>;
             tapping-term-ms = <100>;
-            quick-tap-ms = <200>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
-
-            retro-tap;
         };
 
         sm: space_mod {
