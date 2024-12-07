@@ -111,9 +111,9 @@
             compatible = "zmk,behavior-hold-tap";
             label = "CODE_ROW_MODS";
             #binding-cells = <2>;
-            tapping-term-ms = <200>;
-            quick-tap-ms = <0>;
-            flavor = "hold-preferred";
+            tapping-term-ms = <100>;
+            quick-tap-ms = <200>;
+            flavor = "tap-unless-interrupted";
             bindings = <&kp>, <&kp>;
 
             retro-tap;
