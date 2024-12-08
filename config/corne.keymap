@@ -156,7 +156,7 @@
 &none  &kp ESC                       &kp BACKSLASH  &kp AMPS             &kp ASTRK  &kp LBRC             &kp RBRC   &cm F7 NUMBER_7  &cm F8 NUMBER_8   &cm F9 NUMBER_9  &cm F11 MINUS  &none
 &none  &cm LEFT_SHIFT TAB            &kp DLLR       &cm LS(LCTRL) PRCNT  &kp CARET  &cm LEFT_ALT LPAR    &kp RPAR   &cm F4 NUMBER_4  &cm F5 NUMBER_5   &cm F6 NUMBER_6  &cm F12 GRAVE  &none
 &none  &cm LCTRL LA(LC(LEFT_SHIFT))  &kp EXCL       &kp AT               &kp HASH   &kp LBKT             &kp RBKT   &cm F1 NUMBER_1  &cm F2 NUMBER_2   &cm F3 NUMBER_3  &kp EQUAL      &none
-                                                    &trans               &trans     &trans               &kp SPACE  &trans           &cm F10 NUMBER_0
+                                                    &kp LS(LG(S))        &trans     &trans               &kp SPACE  &trans           &cm F10 NUMBER_0
             >;
         };
 
