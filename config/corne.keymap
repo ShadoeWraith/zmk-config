@@ -138,7 +138,7 @@
 
         caps_word {
             bindings = <&caps_word>;
-            key-positions = <12 23>;
+            key-positions = <13 22>;
             layers = <0>;
         };
     };
